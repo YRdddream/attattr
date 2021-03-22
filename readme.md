@@ -7,11 +7,11 @@ This repository contains the implementation for AAAI-2021 paper [Self-Attention 
 * Pytorch version == 1.1.0
 * networkx == 2.3
 
-We recommend you to run the code using the docker under Linux.
+We recommend you to run the code using the provided docker under Linux.
 
-You can install AttAttr from source:
+You can install attattr from source:
 ```bash
-git clone https://github.com/YRdddream/AttAttr
+git clone https://github.com/YRdddream/attattr
 cd attattr
 pip install --user --editable .
 ```
