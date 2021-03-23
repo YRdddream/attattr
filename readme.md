@@ -8,7 +8,9 @@ This repository contains the implementation for AAAI-2021 paper [Self-Attention 
 * networkx == 2.3
 
 We recommend you to run the code using the docker under Linux:
+```bash
 docker run -it --rm --runtime=nvidia --ipc=host --privileged pytorch/pytorch:1.1.0-cuda10.0-cudnn7.5-devel bash
+```
 
 Then install the following packages with pip:
 ```bash
