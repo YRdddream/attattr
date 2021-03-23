@@ -7,7 +7,15 @@ This repository contains the implementation for AAAI-2021 paper [Self-Attention 
 * Pytorch version == 1.1.0
 * networkx == 2.3
 
-We recommend you to run the code using the provided docker under Linux.
+We recommend you to run the code using the docker under Linux:
+docker run -it --rm --runtime=nvidia --ipc=host --privileged pytorch/pytorch:1.1.0-cuda10.0-cudnn7.5-devel bash
+
+Then install the following packages with pip:
+```bash
+pip install --user networkx==2.3
+pip install --user matplotlib==3.1.0
+pip install --user tensorboardX six numpy tqdm scikit-learn
+```
 
 You can install attattr from source:
 ```bash
